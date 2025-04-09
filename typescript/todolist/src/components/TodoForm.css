@@ -1,0 +1,13 @@
+.form {
+    margin-Bottom: 1rem;
+}
+
+.inputArea {
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.addButton {
+    padding: 0.5rem 1rem;
+    margin-Left: 0.5rem;
+}

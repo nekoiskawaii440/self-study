@@ -1,0 +1,29 @@
+.list {
+    list-style:  none;
+    padding: 0;
+}
+
+.listItem {
+    margin-Bottom: 0.5rem
+}
+
+.listLabel{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    margin-Right: 0.5rem;
+}
+
+.todoText {
+    flex-grow: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.deleteButton {
+    margin-left: 0.5rem;
+}
