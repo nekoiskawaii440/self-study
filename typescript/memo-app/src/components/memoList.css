@@ -1,0 +1,46 @@
+.list {
+    padding: 0px;
+}
+
+.memo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    position: relative;
+}
+
+.memo-item:hover {
+    background-color: #f9f9f9;
+}
+
+.memo-item.active {
+    background-color: #e0f7fa;
+}
+
+.memo-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-grow: 1;
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.delete-btn:hover {
+    color: #e53935;
+}

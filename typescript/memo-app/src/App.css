@@ -1,0 +1,45 @@
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.leftside {
+  background-color: #f8f9fa;
+  padding: 16px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.rightside {
+  width: 75%;
+  background-color: #f5f5f5;
+  padding: 2%;
+  border-radius: 8px;
+}
+
+.memoForm input,
+.memoForm textarea {
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  resize: none;
+}
+
+.memoForm button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
