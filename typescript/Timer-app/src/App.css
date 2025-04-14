@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', 'Helvetica', 'Arial', sans-serif;
+  background: radial-gradient(circle at center, #0f0f0f 0%, #000000 100%);
+  color: #00ffe7;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contents {
+  background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
+  border: 2px solid #00ffe7;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 0 20px #00ffe7, 0 0 40px rgba(255, 0, 255, 0.4);
+  text-align: center;
+}
+
+.timer .title {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: #ff00ff;
+  text-shadow: 0 0 8px #ff00ff;
+}
+
+.timer p {
+  font-size: 56px;
+  font-weight: bold;
+  color: #00ffe7;
+  text-shadow: 0 0 10px #00ffe7;
+  margin: 20px 0;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 12px;
+  font-size: 20px;
+  margin: 0 10px;
+  border: 2px solid #00ffe7;
+  border-radius: 10px;
+  background-color: #111;
+  color: #00ffe7;
+  text-align: center;
+  box-shadow: 0 0 8px #00ffe7;
+}
+
+.button {
+  margin: 12px;
+  padding: 12px 28px;
+  font-size: 18px;
+  background: transparent;
+  border: 2px solid #ff00ff;
+  border-radius: 10px;
+  color: #ff00ff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 8px #ff00ff;
+}
+
+.button:hover {
+  background-color: #ff00ff;
+  color: #000;
+  box-shadow: 0 0 15px #ff00ff;
+}
